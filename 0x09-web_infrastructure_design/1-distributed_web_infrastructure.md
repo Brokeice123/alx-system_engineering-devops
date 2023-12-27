@@ -1,10 +1,10 @@
-## **Distributed web infrastructure**
+# **Distributed web infrastructure**
 ---
-# **Description**
+## **Description**
 This is a distributed web infrastructure that utilizes two servers to balance the work load. The load balancer manages traffic distribution
 between the primary server and the replica server sharing the load. This infrastructure aims to reduce strain on the primary server, ensuring
 smoother operation by distributing incoming requests across both servers.
-# **Specifics about the infrastructure**
+## **Specifics about the infrastructure**
 - Reason for added elements:
     - Additional server: For reducing redundancy
     - Load Balancer: For traffic distribution
@@ -21,7 +21,7 @@ read operations and maintain a copy of the data from the Primary.
 - Primary vs. Replica Node for the Application:
 The application typically interacts with the Primary node for write operations, ensuring data consistency. The Replica nodes are utilized for read
 operations to distribute the read load and improve performance.
-# **Issues with the infrastructure**
+## **Issues with the infrastructure**
 - Single Points of Failure (SPOF):
 Irregards of there being two servers, components such as the load balancer and database could still lead to single point of failure if they fail,
 impacting overall system availability

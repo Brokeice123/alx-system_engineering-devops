@@ -1,10 +1,10 @@
-## **Simple web stack**
+# **Simple web stack**
 ---
-# **Description**
+## **Description**
 ---
 This basic web infrastructure hosts www.foobar.com. It operates without firewalls or SSL certificates, leaving the server's network unprotected.
 The components—database and application server—rely on shared resources (CPU, RAM, and SSD) provided by the server.
-# **Specifics about the infrastructure**
+## **Specifics about the infrastructure**
 - What is a server
 This is a physical or virtual machine that hosts all components of the website. It manages resources, processes requests, and serves content.
 - The role of the domain name
@@ -22,7 +22,7 @@ and responses.
 Stores and retrieves the websites content. t's used for reading, writing, and modifying data required by the application.
 - What is the server using to communicate with the computer of the user requesting the website
 It communicates with the user's computer via HTTP/HTTPS protocols.
-# **Issues with the infrastructure**
+## **Issues with the infrastructure**
 - Single Point of Failure(SPOF):
 Since everything is hosted on one server, any failure in that server can bring down the entire website.
 - Downtime during Maintenance:

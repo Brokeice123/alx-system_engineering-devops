@@ -1,12 +1,12 @@
-## **0x09. Web infrastructure design**
+# **0x09. Web infrastructure design**
 ---
-# *Learning Objectives*
+## *Learning Objectives*
 - Learn about web infrastructure design
 - Understand the different components of a web infrastructure
 - Understand the different architectures of a web infrastructure
 - Understand the different technologies used in web infrastructure
 ---
-# *Learning Resources*
+## *Learning Resources*
 - [DNS concept page](https://intranet.alxswe.com/concepts/12)
 - [Monitoring concept page](https://intranet.alxswe.com/concepts/13)
 - [Web server concept page](https://intranet.alxswe.com/concepts/17)
