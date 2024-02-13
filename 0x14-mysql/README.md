@@ -16,3 +16,4 @@
 
 *[How to : ] Fresh Reset and Install mysql 5.7*
 - [[How to : ] Fresh Reset and Install mysql 5.7](https://intranet.alxswe.com/concepts/100002)
+- [Google Docs File](https://docs.google.com/document/d/1btVRofXP75Cj90_xq2x8AmzuMPOKq6D_Dt_SCDD6GrU/edit)
