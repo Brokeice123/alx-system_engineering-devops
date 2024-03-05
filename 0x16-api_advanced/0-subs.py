@@ -14,7 +14,7 @@ def number_of_subscribers(subreddit):
     url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
 
     # Send a request to the Reddit API
-    headers = {'User-Agent': 'Reddit API Client'}
+    headers = {'User-Agent': 'Google Chrome Version 120.0.6099.217'}
 
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
