@@ -6,6 +6,8 @@ server {
     # Use IP of server as domain name
     server_name 54.165.71.85;
 
+    add_header  X-Served-By 438102-web-01;
+
     # Serving the /airbnb-onepage/ route from AirBnB_clone_v2
     location /airbnb-onepage/ {
         include proxy_params;
